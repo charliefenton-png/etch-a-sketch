@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px; 
+}
+
+.gridContainer > div {
+  border: 1px solid black;
+  height: 25px;
+  width: 25px;
+}
