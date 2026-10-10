@@ -16,3 +16,10 @@ function createGrid() {
 }
 
 createGrid();
+
+
+
+function newGridBtn() {
+const gridButton = document.querySelector(".btnClick");
+  gridButton.addEventListener("click", function())
+}
