@@ -20,7 +20,7 @@ createGrid();
       let resultEle = document.querySelector(".result");
         
         document.querySelector(".btnClick").addEventListener("click", () => {
-            let res = prompt("Enter your message:", "Choose size of grid, max sixe 100.");
+            let res = prompt("Enter your message:", "Choose number of squares per side. Max sixe 100.");
             
             if (res === null) {
                 resultEle.innerHTML = "You pressed cancel";
@@ -38,3 +38,11 @@ createGrid();
             }
         });
 
+let resetGrid=document.getElementById("resetBtn")
+resetGrid.addEventListener("click",clearGrid)
+function clearGrid(){
+  let arrayGrid=[...document.querySelectorAll("div")]
+  arrayGrid.forEach(grid=>grid.style.backgroundColor="white")
+}
+
+clearGrid();

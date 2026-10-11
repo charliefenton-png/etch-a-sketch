@@ -26,5 +26,18 @@ body {
 
 .btnClick {
 display: flex;
-margin-bottom: 50px;  
+margin-bottom: 50px;
+margin-right: 20px;  
+}
+
+#resetBtn {
+display: flex;
+margin-bottom: 50px;
+margin-left: 20px; 
+}
+
+
+.btnContainer {
+display: flex;
+flex-direction: row;  
 }
