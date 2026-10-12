@@ -57,16 +57,16 @@ margin-right: 20px;
 }
 
 .btnClick:focus {
-  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  box-shadow: #292929 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
 }
 
 .btnClick:hover {
-  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c55e0 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
 .btnClick:active {
-  box-shadow: #3c4fe0 0 3px 7px inset;
+  box-shadow: #29292a 0 3px 7px inset;
   transform: translateY(2px);
 }
 
@@ -109,16 +109,16 @@ margin-right: 20px;
 }
 
 #resetBtn:focus {
-  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  box-shadow: #292929 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
 }
 
 #resetBtn:hover {
-  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #e03c3c 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
 #resetBtn:active {
-  box-shadow: #3c4fe0 0 3px 7px inset;
+  box-shadow: #e03c3c 0 3px 7px inset;
   transform: translateY(2px);
 }
 
